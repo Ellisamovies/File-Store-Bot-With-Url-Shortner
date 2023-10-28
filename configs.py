@@ -8,7 +8,7 @@ class Config(object):
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001994995496"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "onepagelink.in")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "4443c1c22a92505c9770f1bbfdc33267a27cb370")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "1017302540"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Nishantb:Nishantb@nishantb.k2uwtj0.mongodb.net/?retryWrites=true&w=majority")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001794551961")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001794573996"))
