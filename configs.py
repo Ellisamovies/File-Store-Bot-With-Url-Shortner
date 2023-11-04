@@ -6,7 +6,7 @@ class Config(object):
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6757194553:AAHXj4bY4K9wkMstxl-mBM1VxnRzm_Qmm4w")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "Advancefilesbot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001994995496"))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "Shrs.link")
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "api.shareus.io")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "VMbmemgEMoQfJkVk9w2MlZSrGK32")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "1017302540"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Nishantb:Nishantb@nishantb.k2uwtj0.mongodb.net/?retryWrites=true&w=majority")
